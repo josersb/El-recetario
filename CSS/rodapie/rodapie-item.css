@@ -1,0 +1,6 @@
+.rodapie__item{
+    list-style: none;
+    background-color: rgb(255, 254, 254);
+    mix-blend-mode: luminosity;
+    filter: grayscale(100%);
+}
