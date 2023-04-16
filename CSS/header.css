@@ -1,0 +1,43 @@
+.cabecera { 
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.logo {
+    width: 150px;
+    height:100px;
+}
+
+.menu {
+    padding: 10px 10px 10px 10px;
+}
+
+.logo:hover{
+    width:160px;
+    height:110px;
+}
+
+.menu__lista{
+    display: flex;
+    
+}
+
+.menu__item{
+    list-style: none;
+    margin-right: 0.75rem;
+}
+
+.menu__link--activo {
+    color: #e43535;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    text-decoration: none;
+    color: rgb(96, 243, 104);
+}
