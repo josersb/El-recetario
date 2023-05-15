@@ -5,36 +5,27 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>El Recetario</title>
-        <!-- no usar normalize de momemnto 
-        <link rel="stylesheet" href="CSS/normalize.css">
-        -->
         <link rel="stylesheet" href="CSS/reset.css">
+        <link rel="stylesheet" href="CSS/estilo-pagina-1.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,700;1,400&family=Roboto:wght@300;400;700&family=Saira:wght@300;400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="CSS/header.css">
-        <link rel="stylesheet" href="CSS/banner/banner.css">
-        <link rel="stylesheet" href="CSS/banner/banner-imagen.css">
-        <link rel="stylesheet" href="CSS/banner/banner-titulo.css">
-        <link rel="stylesheet" href="CSS/intro.css">
-        <link rel="stylesheet" href="CSS/rodapie/rodapie.css">
-        <link rel="stylesheet" href="CSS/rodapie/rodapie-titulo.css">
-        <link rel="stylesheet" href="CSS/rodapie/rodapie-descripcion.css">
-        <link rel="stylesheet" href="CSS/rodapie/rodapie-lista.css">
-        <link rel="stylesheet" href="CSS/rodapie/rodapie-icon.css">
-        <link rel="stylesheet" href="CSS/rodapie/rodapie-item.css">
-        <link rel="stylesheet" href="">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lato:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/646ac4fad6.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="CSS/estilo-pagina-1.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+        <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
     </head>
 
     <body>
         <!-- aca comienza la cabecera de la página-->
         <header class="cabecera">
-            <img class="logo" src="img/Recetario-logo-1.png" alt="logo de El Recetario">
+            <a href="index.html"><img class="logo" src="img/Recetario-logo-1.png" alt="logo de El Recetario"></a>
             <nav class="menu">
                 <ul class="menu__lista">
-                    <li class="menu__item"><a class="menu__link" href="">Recetas</a></li>
+                    <li class="menu__item"><a class="menu__link" href="index.html">Inicio</a></li>
+                    <li class="menu__item"><a class="menu__link" href="recetas.html">Recetas</a></li>
                     <li class="menu__item"><a class="menu__link" href="">Salud y Nutrición</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">Quienes Somos</a></li>
                     <li class="menu__item"><a class="menu__link" href="">Contacto</a></li>
                 </ul>
             </nav>
@@ -48,24 +39,148 @@
 
         <section class="intro">
             <h2 class="intro__titulo">Recetas para economizar y ganar salud</h2>
-            <p class="intro__descripcion">Nuestras recetas te ayudan a aprovechar mejor los alimentos, economizar, ganar
-                tiempo y practicidad</p>
+            <p class="intro__descripcion">Nuestra página ofrece recetas para todo tipo de gustos y necesidades dietéticas, desde opciones vegetarianas y veganas hasta platos para aquellos que siguen una dieta baja en carbohidratos o sin gluten. Además, nuestras recetas están diseñadas para ser accesibles y fáciles de seguir, incluso si eres nuevo en la cocina.</p>
+        </section>
+
+        <section>
+            <div class="swiffy-slider slider-item-show2 slider-item-reveal slider-nav-outside slider-nav-round slider-nav-visible slider-indicators-outside slider-indicators-round slider-indicators-dark slider-nav-animation slider-nav-animation-fadein slider-item-first-visible">
+                <ul class="slider-container py-4">
+                    <li class="slide-visible">
+                        <div class="card shadow h-100">
+                            <div class="ratio ratio-16x9">
+                                <img src="./img/img-recetas/alitas-de-pollo-salsa-miel.jpg" class="card-img-top" loading="lazy" alt="alitas de pollo">
+                            </div>
+                            <div class="card-body p-3 p-xl-5">
+                                <h3 class="card-title h5">Alitas de pollo en miel</h3>
+                                <p class="card-text">Con esta receta de alitas de pollo a la miel puedes preparar también costillas y otros cortes del pollo. La receta es fácil y siempre triunfa.</p>
+                                <div id="custom-btn">
+                                    <a href="#" class="btn btn-primary btn-lg float-right">Ir a la receta</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li class="slide-visible">
+                        <div class="card shadow h-100">
+                            <div class="ratio ratio-16x9">
+                                <img src="./img/img-recetas/canelones-espinacas-queso.jpg" class="card-img-top" loading="lazy" alt="...">
+                            </div>
+                            <div class="card-body p-3 p-xl-5">
+                                <h3 class="card-title h5">Canelones de espinaca</h3>
+                                <p class="card-text">Los canelones de espinaca son deliciosos y nutritivos. Una opción saludable y reconfortante.</p>
+                                <div id="custom-btn">
+                                    <a href="#" class="btn btn-primary btn-lg float-right">Ir a la receta</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card shadow h-100">
+                            <div class="ratio ratio-16x9">
+                                <img src="./img/img-recetas/flan-de-almendras-300x225.jpg" class="card-img-top" loading="lazy" alt="...">
+                            </div>
+                            <div class="card-body p-3 p-xl-5">
+                                <h3 class="card-title h5">Flan de Almendras</h3>
+                                <p class="card-text">Este flan de almendras se prepara con una receta tradicional y sencilla. Tiene una textura consistente y un sabor intenso, muy especial.</p>
+                                <div id="custom-btn">
+                                    <a href="#" class="btn btn-primary btn-lg float-right">Ir a la receta</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card shadow h-100">
+                            <div class="ratio ratio-16x9">
+                                <img src="./img/img-recetas/budindepan.webp" class="card-img-top" loading="lazy" alt="...">
+                            </div>
+                            <div class="card-body  p-3 p-xl-5">
+                                <h3 class="card-title h5">Budín de pan</h3>
+                                <p class="card-text">El budín de pan es un clásico en la gastronomía nacional. Pese a la división entre los que prefieren el flan, es uno de los postres más pedidos para acompañar con crema y dulce de leche. Conocé cómo preparar esta receta.</p>
+                                <div id="custom-btn">
+                                    <a href="#" class="btn btn-primary btn-lg float-right">Ir a la receta</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card shadow h-100">
+                            <div class="ratio ratio-16x9">
+                                <img src="./img/img-recetas/Osobusco al vino tinto.jpg" class="card-img-top" loading="lazy" alt="...">
+                            </div>
+                            <div class="card-body  p-3 p-xl-5">
+                                <h3 class="card-title h5">Osobuco al vino tinto</h3>
+                                <p class="card-text">Este plato exquisito combina la ternura de la carne con los intensos sabores del vino y las especias. Cada bocado te transporta a una experiencia culinaria llena de sofisticación y satisfacción.</p>
+                                <div id="custom-btn">
+                                    <a href="#" class="btn btn-primary btn-lg float-right">Ir a la receta</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            
+                <button type="button" class="slider-nav" aria-label="Go left"></button>
+                <button type="button" class="slider-nav slider-nav-next" aria-label="Go left"></button>
+            
+                <div class="slider-indicators position-relative">
+                    <button class="active" aria-label="Go to slide"></button>
+                    <button aria-label="Go to slide"></button>
+                    <button aria-label="Go to slide"></button>
+                    <button aria-label="Go to slide"></button>
+                    <button aria-label="Go to slide"></button>
+                </div>
+            </div>
         </section>
 
         <!-- aca comienza el pie de pagina-->
-        <footer class="rodapie">
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+        <h3>El Recetario</h3>
+        <p>"La cocina es un lenguaje universal que une a personas de diferentes culturas y traslada el sabor de cada lugar al paladar".</p>
+        <div class="social-links">
+            <a href="#" class="fa"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="ig"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="yt"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="tw"><i class="fa-brands fa-twitter"></i></a>
+            <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+        </div>
+        <div class="copyright">
+            &copy; Copyright <strong><span>El Recetario</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/ -->
+            Designed by <a href="https://bootstrapmade.com/">Grupo12</a>
+        </div>
+        </div>
+    </footer><!-- End Footer -->
+
+        <!-- <footer class="rodapie">
             <h3 class="rodapie__titulo">El Recetario 2023</h2>
             <p class="rodapie__descripcion">Contáctenos por nuestras redes</p>
+            <div class="header">
+                <div class="redes">
+                    <span class="wh"><i class="fa-brands fa-facebook"></i></span>
+                    <span class="em"><i class="fa-brands fa-twitter"></i></span>
+                    <span class="in"><i class="fa-brands fa-instagram"></i></span>
+                    <span class="li"><i class="fa-brands fa-linkedin"></i></span>
+                    <span class="yt"><i class="fa-brands fa-youtube"></i></span>
+                </div>
+            </div>
+
             <ul class="rodapie__lista">
-                <li class="rodapie__item"><a class="rodapie__icon" href="#"><img alt="WhatsApp" src="/img/WhatsApp.png"></a></li>
-                <li class="rodapie__item"><a class="rodapie__icon" href="#" ><img alt="Email" src="img/email.png"></a></li>
+                <li class="rodapie__item"><a class="rodapie__icon" href="#"><img alt="whatsapp" src="img/whatsapp_socialnetwork_17360.png"></a></li>
+                <li class="rodapie__item"><a class="rodapie__icon" href="#"><img alt="Email" src="img/email.png"></a></li>
                 <li class="rodapie__item"><a class="rodapie__icon" href="#"><img alt="Instagram" src="img/Instagram.png"></a></li>
+            
             </ul>
+
         </footer>
+        -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     </body>
 </html>
-
-<!--
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, possimus quis? Excepturi magni molestiae, expedita earum assumenda temporibus suscipit culpa autem accusantium quam reiciendis quae provident est dicta, dolores eveniet.
-Molestias amet possimus adipisci, officia veniam at tempora alias? Quod tempore distinctio sed, dolore fugit dolorem praesentium numquam aut qui pariatur velit veniam provident deserunt totam expedita eveniet et sint.
--->
