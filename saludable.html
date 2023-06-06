@@ -7,7 +7,7 @@
         <title>El Recetario</title>
         <link rel="stylesheet" href="CSS/reset.css">
         <link rel="stylesheet" href="CSS/estilo-pagina-1.css">
-        <link rel="stylesheet" href="/CSS/saludable.css">
+        <link rel="stylesheet" href="CSS/saludable.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lato:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
@@ -22,16 +22,39 @@
     <body>
         <!-- aca comienza la cabecera de la página-->
         <header class="cabecera">
-            <a href="index.html"><img class="logo" src="img/Recetario-logo-1.png" alt="logo de El Recetario"></a>
-            <nav class="menu">
-                <ul class="menu__lista">
-                    <li class="menu__item"><a class="menu__link" href="index.html">Inicio</a></li>
-                    <li class="menu__item"><a class="menu__link" href="recetas.html">Recetas</a></li>
-                    <li class="menu__item"><a class="menu__link" href="saludable.html">Saludable</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
+            <nav class="navbar navbar-expand-md bg-body-tertiary ">
+                <div class="container-fluid nav-container ">
+                     
+                        <a href="index.html" class="navbar-brand" href="#"><img class="logo" src="img/Recetario-logo-1.png " alt="lo El Recetario"></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                    
+                         <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+                           
+                            <ul class="navbar-nav navigation ">
+                                  <li class="nav-item">
+                                      <a class="nav-link  " aria-current="page" href="index.html">Inicio</a>
+                                  </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link  " href="recetas.html">Recetas</a>
+                                  </li>
+                                  <li class="nav-item">
+                                         <a class="nav-link" href="saludable.html">Saludable</a>
+                                  </li>
+                                   <li class="nav-item">
+                                        <a class="nav-link ">Contacto</a>
+                                    </li>
+                             </ul>
+                           
+                         </div>
+                        
+                    
+                </div>
+              </nav>
+                
+            
+            </header>
 
 <!--********************  Alimentos saludables    ***********************-->
 <section>

@@ -270,7 +270,7 @@ font-family: 'Roboto', sans-serif;
         margin: 10px;
 }
 
-.card {
+.recetas-card {
     font-family: 'DM Serif Display', serif;
     font-size: 20px;
     background-color: #F73D2F;
@@ -278,9 +278,10 @@ font-family: 'Roboto', sans-serif;
     padding: 20px;
     width: 90%;
     max-width: 310px;
+    border-radius: 5px;
 }
 
-.card:hover{
+.recetas-card:hover{
     background: rgb(201,41,41);
     transition: 700ms;
 }

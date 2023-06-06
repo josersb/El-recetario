@@ -21,16 +21,39 @@
 <body>
             <!-- aca comienza la cabecera de la página-->
             <header class="cabecera">
-                <a href="index.html"><img class="logo" src="img/Recetario-logo-1.png" alt="logo de El Recetario"></a>
-                <nav class="menu">
-                    <ul class="menu__lista">
-                        <li class="menu__item"><a class="menu__link" href="index.html">Inicio</a></li>
-                    <li class="menu__item"><a class="menu__link" href="recetas.html">Recetas</a></li>
-                    <li class="menu__item"><a class="menu__link" href="saludable.html">Saludable</a></li>
-                    <li class="menu__item"><a class="menu__link" href="">Contacto</a></li>
-                    </ul>
-                </nav>
-            </header>
+                <nav class="navbar navbar-expand-md bg-body-tertiary ">
+                    <div class="container-fluid nav-container ">
+                         
+                            <a href="index.html" class="navbar-brand" href="#"><img class="logo" src="img/Recetario-logo-1.png " alt="lo El Recetario"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                        
+                             <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+                               
+                                <ul class="navbar-nav navigation ">
+                                      <li class="nav-item">
+                                          <a class="nav-link  " aria-current="page" href="index.html">Inicio</a>
+                                      </li>
+                                       <li class="nav-item">
+                                            <a class="nav-link  " href="recetas.html">Recetas</a>
+                                      </li>
+                                      <li class="nav-item">
+                                             <a class="nav-link" href="saludable.html">Saludable</a>
+                                      </li>
+                                       <li class="nav-item">
+                                            <a class="nav-link ">Contacto</a>
+                                        </li>
+                                 </ul>
+                               
+                             </div>
+                            
+                        
+                    </div>
+                  </nav>
+                    
+                
+                </header>
             <!-- FIN *** cabecera-->
         
         <section class="toggleBox"><a onclick="showMenu()" href="#"><img   class="menu" src="assets/3844438-hamburger-menu-more-navigation_110319.png" alt=""><img class="close" src="assets/close_111152.png" alt=""></a>
@@ -39,7 +62,7 @@
     <!--recetas-->
         <section class="recetas">
             <section class="cards">
-                <article class="card">
+                <article class="recetas-card ">
                     <div class="card-header">
                     <img src="assets/camarones.jpg" alt="Card Image" class="card-image">
                     <h3>Cocktail de camarones</h3>
@@ -50,7 +73,7 @@
                 </section>
                 </article>
     
-                <article class="card">
+                <article class="recetas-card ">
                     <div class="card-header">
                     <img src="assets/Caponata_Siciliana.jpg" alt="Card Image" class="card-image">
                     <h3>Caponata con ricota</h3>
@@ -62,150 +85,150 @@
                 </article>
     
     
-                <article class="card">
+                <article class=" recetas-card ">
                     <div class="card-header">
                     <img src="assets/pizza.jpg" alt="Card Image" class="card-image">
                     <h3>Pizza a la parrilla</h3>
                     </div>
                 <section class="card-contenido">
-                    <p class="card-text">Pizza de muzarella a la parrilla, una pizza para salir de la rutina.</p>
+                    <p class="card-text">Pizza de muzarella a la parrilla, una pizza para salir de la rutina,un clásico con un gusto diferente.</p>
                     <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/pizza-de-muzarella-a-la-parrilla/">Ver</a>
                </section>
                 </article>
     
-                <article class="card">
+                <article class="recetas-card ">
                     <div class="card-header">
-                    <img src="assets/garbanzos.jpg" alt="Card Image" class="card-image">
-                    <h3>Cocktail de camarones</h3>
+                    <img src="assets/empanada-arabe.jpg" alt="Card Image" class="card-image">
+                    <h3>Empanadas árabes</h3>
                     </div>
                 <section class="card-contenido">
-                    <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur elit at sapien bibendum, eget blandit velit fringilla."</p>
-                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/cocktail-de-camaron/">Ver</a>
+                    <p class="card-text">Procedente del Líbano, una empanada diferenbte a la nuestra, ya aquí necesitamos jugo de limón .</p>
+                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/empanada-arabe/">Ver</a>
                </section>
                 </article>
     
     
-                <article class="card">
+                <article class="recetas-card ">
                     <div class="card-header">
-                    <img src="assets/garbanzos.jpg" alt="Card Image" class="card-image">
-                    <h3>Cocktail de camarones</h3>
+                    <img src="assets/fish-and-chips.jpg" alt="Card Image" class="card-image">
+                    <h3>Fish and chips</h3>
                     </div>
                 <section class="card-contenido">
-                    <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur elit at sapien bibendum, eget blandit velit fringilla."</p>
-                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/cocktail-de-camaron/">Ver</a>
+                    <p class="card-text">Tradicional plato británico, pescado frito con papas fritas.Un plato muy simple y delicioso.</p>
+                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/fish-chips/">Ver</a>
                </section>
                 </article>
     
     
-                <article class="card">
+                <article class="recetas-card ">
                     <div class="card-header">
-                    <img src="assets/garbanzos.jpg" alt="Card Image" class="card-image">
-                    <h3>Cocktail de camarones</h3>
+                    <img src="assets/salsa-bolognesa.jpg" alt="Card Image" class="card-image">
+                    <h3>Salsa bolognesa</h3>
                     </div>
                 <section class="card-contenido">
-                    <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur elit at sapien bibendum, eget blandit velit fringilla."</p>
-                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/cocktail-de-camaron/">Ver</a>
+                    <p class="card-text">La clásica salsa bolognesa, realizada de manera sencilla, con un resultado espectacular.</p>
+                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/salsa-bolognesa/">Ver</a>
                </section>
                 </article>
     
     
-                <article class="card">
+                <article class="recetas-card ">
                     <div class="card-header">
-                    <img src="assets/garbanzos.jpg" alt="Card Image" class="card-image">
-                    <h3>Cocktail de camarones</h3>
+                    <img src="assets/buñuelos.jpg" alt="Card Image" class="card-image">
+                    <h3>Buñuelos de verduras</h3>
                     </div>
                 <section class="card-contenido">
-                    <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur elit at sapien bibendum, eget blandit velit fringilla."</p>
-                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/cocktail-de-camaron/">Ver</a>
-               </section>
-                </article>
-    
-    
-    
-                <article class="card">
-                    <div class="card-header">
-                    <img src="assets/garbanzos.jpg" alt="Card Image" class="card-image">
-                    <h3>Cocktail de camarones</h3>
-                    </div>
-                <section class="card-contenido">
-                    <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur elit at sapien bibendum, eget blandit velit fringilla."</p>
-                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/cocktail-de-camaron/">Ver</a>
+                    <p class="card-text">Uno deliciosos buñuelos con t odo tipo de verduras  ideales para vegetarianos y veganos. </p>
+                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/bunuelos-de-verduras/">Ver</a>
                </section>
                 </article>
     
     
     
-                <article class="card">
+                <article class="recetas-card ">
                     <div class="card-header">
-                    <img src="assets/garbanzos.jpg" alt="Card Image" class="card-image">
-                    <h3>Cocktail de camarones</h3>
+                    <img src="assets/albondigas-mila.jpg" alt="Card Image" class="card-image">
+                    <h3>Albondigas y milanesas de queso</h3>
                     </div>
                 <section class="card-contenido">
-                    <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur elit at sapien bibendum, eget blandit velit fringilla."</p>
-                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/cocktail-de-camaron/">Ver</a>
+                    <p class="card-text">Riquísimas albondigas de carne y milanesas de , tipo baston.</p>
+                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/albondigas-y-milanesas-de-queso/">Ver</a>
+               </section>
+                </article>
+    
+    
+    
+                <article class="recetas-card ">
+                    <div class="card-header">
+                    <img src="assets/matambre-pizza.jpg" alt="Card Image" class="card-image">
+                    <h3>Matambre en pizza</h3>
+                    </div>
+                <section class="card-contenido">
+                    <p class="card-text">Falso matambre en pizza con una guarnición de panceta ahumada y hongos .</p>
+                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/falso-matambre-en-pizza/">Ver</a>
                </section>
                 </article>
     
     
     
     
-                <article class="card">
+                <article class="recetas-card ">
                     <div class="card-header">
-                    <img src="assets/garbanzos.jpg" alt="Card Image" class="card-image">
-                    <h3>Cocktail de camarones</h3>
+                    <img src="assets/pollo-cacerola.jpg" alt="Card Image" class="card-image">
+                    <h3>Pollo a la cacerola</h3>
                     </div>
                 <section class="card-contenido">
-                    <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur elit at sapien bibendum, eget blandit velit fringilla."</p>
-                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/cocktail-de-camaron/">Ver</a>
+                    <p class="card-text">Ideal para el invierno, lleva salsa de tomate, un pollo trozado y verduras trazadas en juliana. </p>
+                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/pollo-a-la-cacerola-2/">Ver</a>
                 </section>
                 </article>
     
     
     
-                <article class="card">
+                <article class="recetas-card ">
                     <div class="card-header">
-                    <img src="assets/garbanzos.jpg" alt="Card Image" class="card-image">
-                    <h3>Cocktail de camarones</h3>
+                    <img src="assets/Hamburguesa-cordero.jpg" alt="Card Image" class="card-image">
+                    <h3>Hamburguesas de carne de  cordero</h3>
                     </div>
                 <section class="card-contenido">
-                    <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur elit at sapien bibendum, eget blandit velit fringilla."</p>
-                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/cocktail-de-camaron/">Ver</a>
+                    <p class="card-text">Hamburguesas de carne de cordero con una emulsión de yougurt y curry.</p>
+                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/hamburguesas-de-cordero-2/">Ver</a>
                 </section>
                 </article>
     
     
     
-                <article class="card">
+                <article class="recetas-card ">
                     <div class="card-header">
-                    <img src="assets/garbanzos.jpg" alt="Card Image" class="card-image">
-                    <h3>Cocktail de camarones</h3>
+                    <img src="assets/raviolones.jpg" alt="Card Image" class="card-image">
+                    <h3>Raviolones papa y menta</h3>
                     </div>
                 <section class="card-contenido">
-                    <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur elit at sapien bibendum, eget blandit velit fringilla."</p>
-                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/cocktail-de-camaron/">Ver</a>
+                    <p class="card-text">Culurgiones ripieni di Patate e menta (raviolones de papa y menta),con salsa de tomates disecados.</p>
+                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/culurgiones-ripieni-di-patate-e-menta-raviolones-de-papa-y-menta/">Ver</a>
                 </section>
                 </article>
     
     
-                <article class="card">
+                <article class="recetas-card ">
                     <div class="card-header">
-                    <img src="assets/garbanzos.jpg" alt="Card Image" class="card-image">
-                    <h3>Cocktail de camarones</h3>
+                    <img src="assets/sandwich_de_roastbeef.jpg" alt="Card Image" class="card-image">
+                    <h3>Sándwich de Roast-beef</h3>
                     </div>
                 <section class="card-contenido">
-                    <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur elit at sapien bibendum, eget blandit velit fringilla."</p>
-                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/cocktail-de-camaron/">Ver</a>
+                    <p class="card-text">Cada sandwich lleva 150gr de roast beef y el pan elegido es pan de molde y unas hierbas.</p>
+                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/sandwich-especial-de-roast-beef/">Ver</a>
             </section>
                 </article>
     
-                <article class="card">
+                <article class="recetas-card ">
                     <div class="card-header">
-                    <img src="assets/garbanzos.jpg" alt="Card Image" class="card-image">
-                    <h3>Cocktail de camarones</h3>
+                    <img src="assets/alfacoco.jpg" alt="Card Image" class="card-image">
+                    <h3>Alfacocos</h3>
                     </div>
                 <section class="card-contenido">
-                    <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis efficitur elit at sapien bibendum, eget blandit velit fringilla."</p>
-                    <a class="card-button" target="_blank" href="https://elgourmet.com/recetas/cocktail-de-camaron/">Ver</a>
+                    <p class="card-text">Alfajores sin TAAC.En vez de harina,coco rallado.Relleno de dulce de leche.</p>
+                    <a class="card-button" target="_blank" href="hhttps://elgourmet.com/recetas/alfacocos/">Ver</a>
                 </section>
                 </article>
             </section>
