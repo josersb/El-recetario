@@ -25,7 +25,7 @@ p {
 }
 
 .navbar {
-    background: #F73D2F;
+    /* background: #F73D2F; */
     padding: 20px;
     display: flex;
     justify-content: space-between;

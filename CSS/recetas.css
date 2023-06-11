@@ -22,7 +22,7 @@ h2,h3,p{
 }
 
 .navbar{
-    background:#F73D2F;
+    /* background:#F73D2F; */
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -123,7 +123,6 @@ img.close.show{
         padding-top: 30px;
         flex-direction: row;
         justify-content:flex-end ;
-      
     }
 }
 /*banner*/
